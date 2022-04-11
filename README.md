@@ -1,8 +1,4 @@
 # face-recognition
-# Galib, Marnim
-# 1000-427-030
-# 2017-11-27
-# Assignment_06_03
 
 
 Step 1 : Run this to reduce the size of  the training images of the CSE 5368 class to 160X160
@@ -14,7 +10,7 @@ Reduced images are saved in the directory : Galib_06/datasets/class_train_160
 Step 2 : Using the LFW model to generate features for the CSE 5368 students images : the trained classification model is saved as a python pickle (Galib_06_01.pkl)
 
 
-python src/classifier.py TRAIN datasets/class_train_160 models/facenet/20170512-110547/20170512-110547.pb models/Galib_06_01.pkl --batch_size 1000
+'python src/classifier.py TRAIN datasets/class_train_160 models/facenet/20170512-110547/20170512-110547.pb models/Galib_06_01.pkl --batch_size 1000'
 
 Python pkl is saved in the directory : Galib_06/models
 
