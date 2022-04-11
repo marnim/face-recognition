@@ -1,0 +1,5 @@
+arguments: src/align/align_dataset_mtcnn.py datasets/class_train datasets/class_train_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
+--------------------
+git hash: b''
+--------------------
+b''
