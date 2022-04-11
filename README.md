@@ -3,7 +3,7 @@
 
 Step 1 : Run this to reduce the size of  the training images of the CSE 5368 class to 160X160
 
-python src/align/align_dataset_mtcnn.py datasets/class_train datasets/class_train_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
+`python src/align/align_dataset_mtcnn.py datasets/class_train datasets/class_train_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25`
 
 Reduced images are saved in the directory : Galib_06/datasets/class_train_160
 
